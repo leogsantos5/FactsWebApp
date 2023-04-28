@@ -2,6 +2,7 @@ import { func } from "prop-types";
 import "./style.css";
 import { useEffect, useState } from "react";
 import supabase from "./supabase";
+// Github comment for testing
 
 function App() {
   const [showForm, setShowForm] = useState(false);
